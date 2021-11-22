@@ -15,9 +15,9 @@ public class MvcMemberFormServlet extends HttpServlet {
     protected void service(HttpServletRequest request, HttpServletResponse response)
           throws ServletException, IOException {
 
-        String viewPath = "/WEB-INF/views/new-form.jsp";
+      String viewPath = "/WEB-INF/views/new-form.jsp";
       RequestDispatcher dispatcher = request.getRequestDispatcher(viewPath);
-      // 서블릿에서 jsp 호로
+      // 서블릿에서 jsp 호츌
       dispatcher.forward(request, response);
 
     }
